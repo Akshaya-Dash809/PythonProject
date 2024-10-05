@@ -14,6 +14,7 @@
 
 ####______________________PROGRAM____________________
 number=input("Enter a two digit number: ")
-_1st_digit = number[0]
-_2nd_digit = number[1]
-print(int(_1st_digit)+int(_2nd_digit))
+_1st_digit = number[0] # store 1st digit to a variable
+_2nd_digit = number[1] # store 2nd digit to a variable
+print(int(_1st_digit)+int(_2nd_digit)) # add both digit by typecasting string to int
+
